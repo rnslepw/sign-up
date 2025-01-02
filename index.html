@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-up</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="logo-container">
+    <div class="logo-box">
+      <img class="logo" src="./images/logo.png" alt="Logo">
+      <span class="logo-text">Torin</span>
+    </div>
+    <p class="credits">Photo by <a href="https://unsplash.com/@lifeof_peter_">Peter Thomas</a> on Unsplash</p>
+  </div>
+  <div class="form-container">
+    <div class="welcome">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptates officia magnam laboriosam voluptas dicta officiis dolor similique, nisi maiores veniam doloremque necessitatibus facere cumque tenetur tempora voluptate animi natus?</p>
+      <p>You <em>know</em> you want to.</p>
+    </div>
+    <form class="form" action="#">
+      <legend>Let's do it</legend>
+      <fieldset>
+        <div class="input-group">
+          <label for="first">First Name</label>
+          <input type="text" id="first" name="first">
+        </div>
+        <div class="input-group">
+          <label for="last">Last Name</label>
+          <input type="last" id="last" name="last">
+        </div>
+      </fieldset>
+      <fieldset>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <div class="input-group">
+          <label for="phone">Phone</label>
+          <input type="text" id="phone" name="phone" minlength="12">
+        </div>
+      </fieldset>
+      <fieldset>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div class="input-group">
+          <label for="confirm">Confirm</label>
+          <input type="password" id="confirm" name="confirm" required>
+        </div>
+      </fieldset>
+    </form>
+    <div class="login">
+      <button class="btn">Create Account</button>
+      <p class="login-text">Already have an account? <a href="#">Log in</a></p>
+    </div>
+  </div>
+</body>
+</html>
